@@ -25,3 +25,15 @@ class LocalizationNet(nn.Module):
     def to_identity_transformation(fc):
         fc.weight.data.zero_()
         fc.bias.data.copy_(torch.tensor([1, 0, 0, 0, 1, 0], dtype=torch.float))
+
+
+class SpatialTransformerNetwork(nn.Module):
+    def __init__(self):
+        super(SpatialTransformerNetwork, self).__init__()
+        self.localization_net = LocalizationNet()
+
+    def forward(self, u):
+        theta = self.localization_net(u)
+        grid = F.affine_grid(theta, u.shape)
+        v = F.grid_sample(u, grid)
+        return v
