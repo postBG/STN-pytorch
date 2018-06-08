@@ -160,3 +160,6 @@ venv.bak/
 .idea
 raw
 processed
+
+# model save
+checkpoint.pth.tar

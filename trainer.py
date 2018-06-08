@@ -22,9 +22,10 @@ class Trainer(object):
 
         self.optimizer = optim.Adagrad(self.model.parameters(), lr=self.lr)
 
-    def train(self):
+    def train_and_eval(self):
         for epoch in range(1, self.epoch + 1):
             self.train_one_epoch(epoch)
+            self.test()
 
     def train_one_epoch(self, epoch):
         self.model.train()
