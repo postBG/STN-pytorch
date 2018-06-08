@@ -7,7 +7,7 @@ import torch.optim as optim
 from datasets import train_loader, test_loader
 
 
-def save_checkpoint(state, is_best=False, filename='checkpoint.pth.tar'):
+def save_checkpoint(state, is_best=False, filename='output/checkpoint.pth.tar'):
     torch.save(state, filename)
     if is_best:
         shutil.copyfile(filename, 'model_best.pth.tar')
