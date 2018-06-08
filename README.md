@@ -1,25 +1,4 @@
 # STN-pytorch
 Implementation of STN with floydhub and pytorch
 
-```text
-2018-06-08 06:45:13 PSTTrain Epoch: 18 [0/60000 (0%)]	Loss: 0.009673
-2018-06-08 06:45:15 PSTTrain Epoch: 18 [19200/60000 (32%)]	Loss: 0.006476
-2018-06-08 06:45:16 PSTTrain Epoch: 18 [38400/60000 (64%)]	Loss: 0.018969
-2018-06-08 06:45:18 PSTTrain Epoch: 18 [57600/60000 (96%)]	Loss: 0.006170
-2018-06-08 06:45:19 PST
-2018-06-08 06:45:19 PSTTest set: Average loss: 0.0276, Accuracy: 9906/10000 (99%)
-2018-06-08 06:45:19 PST
-2018-06-08 06:45:20 PSTTrain Epoch: 19 [0/60000 (0%)]	Loss: 0.025623
-2018-06-08 06:45:21 PSTTrain Epoch: 19 [19200/60000 (32%)]	Loss: 0.065025
-2018-06-08 06:45:23 PSTTrain Epoch: 19 [38400/60000 (64%)]	Loss: 0.073171
-2018-06-08 06:45:25 PSTTrain Epoch: 19 [57600/60000 (96%)]	Loss: 0.019381
-2018-06-08 06:45:26 PST
-2018-06-08 06:45:26 PSTTest set: Average loss: 0.0283, Accuracy: 9905/10000 (99%)
-2018-06-08 06:45:26 PST
-2018-06-08 06:45:26 PSTTrain Epoch: 20 [0/60000 (0%)]	Loss: 0.064822
-2018-06-08 06:45:28 PSTTrain Epoch: 20 [19200/60000 (32%)]	Loss: 0.002229
-2018-06-08 06:45:30 PSTTrain Epoch: 20 [38400/60000 (64%)]	Loss: 0.004899
-2018-06-08 06:45:32 PSTTrain Epoch: 20 [57600/60000 (96%)]	Loss: 0.001550
-2018-06-08 06:45:33 PST
-2018-06-08 06:45:33 PSTTest set: Average loss: 0.0293, Accuracy: 9905/10000 (99%)
-```
+[training log from floydhub](https://www.floydhub.com/api/v1/resources/wbAmHfNpMNHS3WL3LYt8tN?content=true)
