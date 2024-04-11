@@ -5,7 +5,7 @@ click==6.7
 clint==0.5.1
 cycler==0.10.0
 floyd-cli==0.10.39
-idna==2.6
+idna==3.7
 kiwisolver==1.0.1
 marshmallow==2.15.3
 matplotlib==2.2.2
