@@ -9,7 +9,7 @@ idna==3.7
 kiwisolver==1.0.1
 marshmallow==2.15.3
 matplotlib==2.2.2
-numpy==1.14.3
+numpy==1.22.0
 pathlib2==2.3.2
 Pillow==5.1.0
 pyparsing==2.2.0
